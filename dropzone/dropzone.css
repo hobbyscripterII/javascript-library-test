@@ -1,0 +1,19 @@
+#dropzone {
+    width: 1000px;
+    height: 600px;
+    background-color: #f8f9fa;
+    border: 2px dashed #adb5bd;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    min-height: 200px;
+    text-align: center;
+    color: #6c757d;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+#dropzone.dz-drag-hover {
+    background-color: #ffcce0;
+    border-color: #ff4da6;
+    color: #cc0066;
+}
