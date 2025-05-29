@@ -4,33 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>javascript library test</title>
-    <link rel="stylesheet" href="https://unpkg.com/dropzone@5/dist/min/dropzone.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <link rel="stylesheet" href="../cmmn/cmmn.css">
-    <link rel="stylesheet" href="dropzone.css">
+    <link rel="stylesheet" href="typeahead.css">
 </head>
 <body>
     <nav>
         <a href="../index.html">home</a>
         <a href="../flatpickr/index.html">flatpickr</a>
-        <a href="index.html">dropzone</a>
-        <a href="../typeahead/index.html">typeahead</a>
+        <a href="../dropzone/index.html">dropzone</a>
+        <a href="index.html">typeahead</a>
         <a href="../selectize/index.html">selectize</a>
     </nav>
 
     <div class="wrap">
-        <div id="title">dropzone</div>
+        <div id="title">typeahead</div>
 
-        <form class="dropzone" id="dropzone" action="/dropzone" method="post">
-        </form>
+        <input type="text" id="search" placeholder="검색어를 입력하세요.">
     </div>
 
     <div class="wrap right">
-        <!-- <a id="reference" href="#" target="_blank"><div>reference</div></a> -->
+        <!-- <a id="reference" href="https://flatpickr.js.org/" target="_blank"><div>reference</div></a> -->
     </div>
 </body>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://unpkg.com/dropzone@5/dist/min/dropzone.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/corejs-typeahead/1.3.1/typeahead.bundle.min.js"></script>
 <script src="../cmmn/cmmn.js"></script>
-<script src="dropzone.js"></script>
+<script src="typeahead.js"></script>
 </html>

@@ -12,7 +12,7 @@
     transition: all 0.3s ease;
 }
 
-#dropzone.dz-drag-hover {
+#dropzone.dz-drag-hover, #dropzone:hover {
     background-color: #ffcce0;
     border-color: #ff4da6;
     color: #cc0066;
